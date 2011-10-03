@@ -50,19 +50,45 @@ Multiverse Theory also does poorly on the second front. We have as much reason t
 	\end{equation}
 	with no cosmological constant. Rearranging to give in terms of $H(a)$, $H_{0}$, $a$ and $\Omega_{a}$:
 \end{itemize}
-\begin{eqnarray}
+\begin{eqnarray*}
 	H^{2} =& \frac{8 \pi G \rho}{3} - \frac{kc^{2}}{a^{2}}, &H = \frac{\dot a}{a} \\
 	  =& \frac{H_{0}^{2} \rho}{\rho_{crit}} - \frac{kc^{2}}{a^{2}}, &\frac{\rho_{crit}}{H_{0}^{2}} = \frac{3}{8 \pi G} \\
 	  =& H_{0}^{2}\Omega - \frac{kc^{2}}{a^{2}}, &\Omega = \frac{\rho}{\rho_{crit}} \\
 	  =& H_{0}^{2}[\frac{kc^{2}}{a^{2}H^{2}} + 1] - \frac{kc^{2}}{a^{2}}, & \Omega = \frac{kc^{2}}{a^{2}H^{2}} + 1 \\
 	\Rightarrow (\frac{H}{H_{0}})^{2} =& \frac{kc^{2}}{a^{2}H^{2}} + 1 - \frac{kc^{2}}{a^{2}H_{0}^{2}}, &\mbox{divide by $H_{0}^{2}$}
-\end{eqnarray}
+\end{eqnarray*}
 \begin{itemize}
 	\item[(b)] 
-	\item[(c)] 
-	\item[(d)] 
+	\item[(c)] Solve for $d/d\theta [a(\theta)] = 0$ to get $\theta = \pi$. Sub into $t(\theta)$:
 \end{itemize}
+\begin{eqnarray*}
+	t(\pi) &=& \frac{1}{2}\frac{\Omega_{0}}{\Omega_{0} - 1} \frac{1}{H_{0}(\Omega_{0} - 1)^{0.5}} (\pi - 0) \\
+	       &=& \frac{\pi}{2}\frac{\Omega_{0}}{H_{0}(\Omega_{0} - 1)^{1.5}} \\
+		   &&\mbox{where $\Omega_{0} = 2$, $H_{0}^{-1} = 14 \times 10^{9}$ years} \\
+		   &=& 14\pi \times 10^{9} \\
+		   &\approx& 4.4 \times 10^{10} \mbox{years} \\
+		   &&\mbox{and for when the Big Crunch occurs:} \\
+	t(2\pi) &=& \frac{2\pi}{H_{0}} \\
+		  &\approx& 8.8 \times 10^{10} \mbox{years}
+\end{eqnarray*}
+\begin{itemize}
+	\item[(d)] Using:
+\end{itemize}
+\begin{eqnarray*}
+	\frac{T}{T_{0}} &=& \frac{a}{a_{0}} \mbox{ at $T_{0} = 3$ K} \\
+	T &=& \frac{a_{0}T}{a(\pi)} \\
+	  &=& 1 \times 3 \times [\frac{1}{2}\frac{\Omega_{0}}{\Omega_{0} -1} (1 - \cos \theta)]^{-1} \\
+	  &=& \frac{6}{2}(1 - \cos \pi)^{-1} \\
+	  &=& 3/2 \mbox{ K}\\
+	  \mbox{and when the Universe has shrunk back to its present size:} \\
+	  T &=& 3 \mbox{ K}
+\end{eqnarray*}
 
 \section*{Question 3}
+\begin{eqnarray*}
+	q_{0} =& -\frac{1}{H_{0}^{2}}[\frac{-4\pi G \rho_{0}}{3} + \frac{\Lambda c^{2}}{3}], &\frac{\ddot a}{a} = \frac{-4\pi G \rho}{3} + \frac{\Lambda c^{2}}{3} \\
+	=& -\frac{1}{H_{0}^{2}}[\frac{-1}{2}\Omega_{M} + H_{0}^{2}\Omega_{\Lambda}], &\Omega_{\Lambda} = \frac{\Lambda}{3H_{0}^{2}} \\
+	=& \frac{1}{2}\frac{\Omega_{M}}{H_{0}^{2}} + \Omega_{\Lambda} &
+\end{eqnarray*}
 \section*{Question 4}
 \end{document}
