@@ -65,7 +65,14 @@ Multiverse Theory also does poorly on the second front. We have as much reason t
 		\frac{dt}{d\theta} =& \frac{1}{2}\frac{\Omega_{0}}{\Omega_{0}-1}\frac{1}{H_{0}(\Omega_{0} - 1)^{0.5}} (1-\cos \theta) & \\
 		=& [\frac{d\theta}{dt}]^{-1} \\
 		\Rightarrow \frac{d\theta}{dt} =& \frac{1}{2}\frac{\Omega_{0}}{\Omega_{0}-1}\frac{H_{0}}{1-\cos \theta}(\Omega_{0} - 1)^{0.5} &\\
-		\therefore \frac{da}{dt} =& H_{0}\frac{\sin \theta}{1-\cos \theta}(\Omega_{0} - 1)^{0.5} \\
+		\therefore \dot a =& H_{0}\frac{\sin \theta}{1-\cos \theta}(\Omega_{0} - 1)^{0.5} \\
+		&\mbox{Rearrange to prove it as a solution:}& \\
+		\Rightarrow \frac{\dot a}{a} =& \frac{H_{0}}{a}\frac{\sin \theta}{1-\cos \theta}(\Omega_{0} - 1)^{0.5} \\
+		&\mbox{Square both sides:}& \\
+		\Rightarrow (\frac{\dot a}{a})^{2} =& H^{2} = (\frac{H_{0}}{a})^{2}\frac{\sin^{2} \theta}{(1-\cos \theta)^{2}} (\Omega_{0} - 1) &\\
+		&\mbox{Divide by $H_{0}^{2}$:}& \\
+		\Rightarrow \frac{H^{2}}{H_{0}^{2}} =& \frac{\sin^{2} \theta}{a^{2}(1-\cos \theta)^{2}} (\Omega_{0} - 1) &\\
+		&\mbox{Which, by subbing in $a(\theta)$, we can see is equivalent to the solution found in part (a)}& \\
 	\end{align*}
 	\item[(c)] Solve for $d/d\theta [a(\theta)] = 0$ to get $\theta = \pi$. Sub into $t(\theta)$:
 	\begin{align*}
@@ -97,4 +104,21 @@ Multiverse Theory also does poorly on the second front. We have as much reason t
 	=& \frac{1}{2}\Omega_{M} + \Omega_{\Lambda} &
 \end{eqnarray*}
 \section*{Question 4}
+First we calculate $N_{n}/N_{p}$:
+\begin{align*}
+	\frac{N_{n}}{N_{p}} =& (\frac{m_{n}}{m_{p}})^{1.5}exp[\frac{(m_{n}-m_{p})c^{2}}{kT}] & \\
+	\approx& 0.88 &\\
+	&\mbox{which gives us our early ratio of neutrons to protons.}&\\
+	&\mbox{To calculate the new ratios we solve the formulas:}&\\
+	N_{n}(0) =& N_{n}(0)exp(-340/\tau) &, \tau = t_{half}/ \ln 2=8858 \\
+					 =& 0.85 &\\
+	N_{p}(t) =& N_{p}(0) + 0.15N_{n}(0) &\\
+					 =& 1.13 &\\
+	&\mbox{Which gives us the following mass fractions:}&\\
+	X_{p} =& \frac{N_{p} - N_{n}}{N_{p} + N_{n}} &\\
+				=& 0.14 &\\
+	Y_{p} =& \frac{2N_{n}}{N_{p} + N_{n}} &\\
+				=& 0.86 &\\
+\end{align*}
+The Hydrogen and Helium ratios are practically reversed compared to how we have it. There is a much larger amount of Helium present in this hypothetical universe, jumpstarting universal stellar evolution by a significant margin. On an astronomical scale this Universe might be quite similar to ours, but on a local scale the likelyhood for life is lessened by the shortened duration of the average star's life.
 \end{document}
